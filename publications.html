@@ -1,0 +1,10 @@
+<div id="pubs"></div>
+
+<script>
+fetch("https://inspirehep.net/api/authors?q=yourname")
+.then(res => res.json())
+.then(data => {
+  document.getElementById("pubs").innerHTML =
+    "<p>Auto publication list coming soon...</p>";
+});
+</script>
