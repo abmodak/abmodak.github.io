@@ -3,82 +3,176 @@
 <head>
   <title>Your Name | High Energy Nuclear Physics</title>
   <meta charset="UTF-8">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      max-width: 900px;
-      line-height: 1.6;
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #333;
     }
-    h1, h2 {
-      color: #2c3e50;
+
+    header {
+      background-color: #1a2a44;
+      color: white;
+      padding: 30px;
+      text-align: center;
     }
-    a {
-      color: #1a73e8;
+
+    nav {
+      background: #0f1c2e;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
       text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+    }
+
+    .section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      color: #1a2a44;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+
+    .image-box {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .image-box img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    footer {
+      background: #1a2a44;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
     }
   </style>
 </head>
 
 <body>
 
-<h1>Your Name</h1>
-<p><b>Postdoctoral Researcher in High Energy Nuclear Physics</b></p>
+<header>
+  <h1>Your Name</h1>
+  <p>Postdoctoral Researcher | High Energy Nuclear Physics</p>
+</header>
 
+<nav>
+  <a href="#about">About</a>
+  <a href="#research">Research</a>
+  <a href="#publications">Publications</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+<!-- ===================== -->
+
+<div class="section" id="about">
+<h2>About Me</h2>
 <p>
-I work on understanding the properties of strongly interacting matter using high-energy collisions. 
-My research focuses on small systems, collectivity, and jet-related observables within the ALICE experiment at CERN.
+I am a researcher in high energy nuclear physics working on the properties of strongly interacting matter 
+produced in high-energy collisions. My research focuses on small systems, collectivity, and jet-related observables 
+within the ALICE experiment at CERN.
 </p>
 
-<hr>
+<div class="image-box">
+  <img src="profile.jpg" alt="Profile Photo">
+</div>
 
-<h2>Research Interests</h2>
-<ul>
-  <li>Quark-Gluon Plasma (QGP)</li>
-  <li>Small systems and collectivity</li>
-  <li>Jet physics and correlations</li>
-  <li>Particle production and hadronization</li>
-</ul>
+</div>
 
-<hr>
+<!-- ===================== -->
 
-<h2>Publications</h2>
+<div class="section" id="research">
+<h2>Research Highlights</h2>
+
+<div class="grid">
+
+<div>
+<h3>Collectivity in Small Systems</h3>
+<p>
+Study of long-range correlations and multiplicity-dependent particle production in pp and p–Pb collisions.
+</p>
+<img src="plot1.png">
+</div>
+
+<div>
+<h3>Jet and Correlation Studies</h3>
+<p>
+Exploring connections between hard probes and soft particle production to understand QCD dynamics.
+</p>
+<img src="plot2.png">
+</div>
+
+</div>
+
+</div>
+
+<!-- ===================== -->
+
+<div class="section" id="publications">
+<h2>Selected Publications</h2>
+
 <ul>
   <li>
-    Author, <i>Title of Paper</i>, Journal (Year)  
-    <a href="#">[arXiv]</a>
-  </li>
-  <li>
-    Author, <i>Title of Paper</i>, Journal (Year)  
+    Your Name, <i>Important Paper Title</i>, Journal (Year)  
     <a href="#">[arXiv]</a>
   </li>
 </ul>
 
-<hr>
+</div>
 
-<h2>Projects</h2>
-<ul>
-  <li>Multiplicity-dependent particle production in ALICE</li>
-  <li>Correlation studies in small systems</li>
-  <li>Jet-related observables in high-energy collisions</li>
-</ul>
+<!-- ===================== -->
 
-<hr>
+<div class="section">
+<h2>Research Vision</h2>
+<p>
+My long-term goal is to develop novel observables that probe fundamental QCD properties, including collectivity 
+in small systems and the interplay between jets and the QGP medium.
+</p>
+</div>
 
-<h2>Talks & Conferences</h2>
-<ul>
-  <li>Conference Name, Year – Talk Title</li>
-  <li>Workshop Name, Year – Talk Title</li>
-</ul>
+<!-- ===================== -->
 
-<hr>
-
+<div class="section" id="contact">
 <h2>Contact</h2>
 <p>
 Email: your.email@cern.ch <br>
 ORCID: <a href="#">link</a> <br>
 INSPIRE: <a href="#">link</a>
 </p>
+</div>
+
+</div>
+
+<footer>
+  <p>© 2026 Your Name</p>
+</footer>
 
 </body>
 </html>
