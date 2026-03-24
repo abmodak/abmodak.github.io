@@ -64,3 +64,63 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+footer {
+  background: #0f1c2e;
+  color: #ddd;
+  margin-top: 60px;
+}
+
+/* MAIN FOOTER */
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* LEFT */
+.footer-left {
+  max-width: 60%;
+}
+
+.footer-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* RIGHT */
+.footer-right {
+  text-align: right;
+}
+
+.footer-right a {
+  color: #aad4ff;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+/* LINKS */
+footer a {
+  color: #aad4ff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTPRINT BAR */
+.footer-bottom {
+  background: #08111f;
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+  color: #888;
+}
