@@ -58,18 +58,6 @@ h2 {
 }
 
 img {
-  max-width: 20%;
-  border-radius: 6px;
-}
-
-img.small {
-  width: 300px;
-}
-
-img.medium {
-  width: 600px;
-}
-
-img.large {
-  width: 900px;
+  max-width: 100%;
+  height: auto;
 }
