@@ -52,6 +52,8 @@ nav a {
   max-width: 1000px;
   margin: auto;
   padding: 30px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 h2 {
