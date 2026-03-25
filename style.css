@@ -125,38 +125,53 @@ footer a:hover {
   color: #888;
 }
 
-/* RESEARCH BLOCKS */
-.research-block {
-  position: relative;
-  padding: 25px 25px 25px 20px;
+/* RESEARCH ITEM LAYOUT */
+.research-item {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 50px 0;
+  padding: 30px;
+  border-radius: 12px;
+  background: #eef3fa;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 
-.research-block::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 5px;
-  height: 100%;
-  background: #1a2a44;
-  border-radius: 5px 0 0 5px;
+/* Alternate layout (image left) */
+.research-item.reverse {
+  flex-direction: row-reverse;
 }
 
-.research-block h3 {
+/* TEXT */
+.research-text {
+  flex: 1;
+}
+
+.research-text h3 {
   margin-top: 0;
   color: #1a2a44;
 }
 
-/* Alternate colors */
-.research-block:nth-child(odd) {
-  background: #e8edf5;   /* light blue-gray */
+/* HIGHLIGHT */
+.highlight {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #0f1c2e;
 }
 
-.research-block:nth-child(even) {
-  background: #d6e0f0;   /* slightly deeper tone */
+/* IMAGE */
+.research-image {
+  flex: 1;
+  text-align: center;
 }
 
-/* Hover effect (very nice touch) */
-.research-block:hover {
-  transform: translateY(-3px);
+.research-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* SUBTLE HOVER */
+.research-item:hover {
+  transform: translateY(-4px);
+  transition: 0.2s ease;
 }
