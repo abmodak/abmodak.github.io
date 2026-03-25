@@ -124,3 +124,25 @@ footer a:hover {
   font-size: 13px;
   color: #888;
 }
+
+/* RESEARCH BLOCKS */
+.research-block {
+  padding: 25px;
+  margin: 25px 0;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+/* Alternate colors */
+.research-block:nth-child(odd) {
+  background: #e8edf5;   /* light blue-gray */
+}
+
+.research-block:nth-child(even) {
+  background: #d6e0f0;   /* slightly deeper tone */
+}
+
+/* Hover effect (very nice touch) */
+.research-block:hover {
+  transform: translateY(-3px);
+}
